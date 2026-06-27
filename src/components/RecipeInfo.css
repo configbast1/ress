@@ -1,0 +1,70 @@
+.recipe-info {
+  margin-top: 32px;
+}
+
+.recipe-info__stats {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+}
+
+.recipe-info__stat {
+  flex: 1;
+  min-width: 120px;
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+}
+
+.recipe-info__icon { font-size: 1.4rem; display: block; }
+.recipe-info__label { font-size: 0.75rem; color: #888; display: block; margin: 4px 0 2px; }
+.recipe-info__value { font-size: 0.95rem; font-weight: bold; color: #2c2c2c; }
+
+.recipe-info__portions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #fff8ee;
+  border: 1px solid #f5c842;
+  border-radius: 12px;
+  padding: 14px 20px;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+
+.recipe-info__portions-label { font-size: 0.95rem; color: #555; }
+
+.recipe-info__btn {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 2px solid #c0392b;
+  background: white;
+  color: #c0392b;
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+.recipe-info__btn:hover { background: #c0392b; color: white; }
+
+.recipe-info__portions-count {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #c0392b;
+  min-width: 30px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+.recipe-info__portions-count--big { transform: scale(1.2); }
+
+.recipe-info__tip { font-size: 0.85rem; color: #c0392b; }
+
+.recipe-info__about p {
+  margin-bottom: 16px;
+  color: #444;
+  font-size: 1rem;
+}
